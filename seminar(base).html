@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Seminar Teknologi Informasi</title>
-    <link href="bootstrap.min.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- Konten akan ditambahkan bertahap -->
-    <!-- Hero Section -->
-    <section
-      class="hero text-white text-center"
-      style="
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-          url('seminar.jpg') center/cover no-repeat;
-        padding: 100px 20px;
-      "
-    >
-      <h1 class="display-4 fw-bold">Seminar Teknologi Informasi 2025</h1>
-      <p class="lead">“Masa Depan Digital dan Inovasi Teknologi”</p>
-      <p>
-        <strong>Sabtu, 15 November 2025 | Jakarta Convention Center</strong>
-      </p>
-      <a href="#daftar" class="btn btn-primary btn-lg">Daftar Sekarang</a>
-    </section>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seminar Teknologi Informasi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
 
-    <script src="bootstrap.bundle.min.js"></script>
-  </body>clear
-  
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("seminar.jpg") center/cover no-repeat;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .hero strong {
+      font-size: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      padding: 12px 24px;
+      margin-top: 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Seminar Teknologi Informasi 2025</h1>
+    <p>“Masa Depan Digital dan Inovasi Teknologi”</p>
+    <p><strong>Sabtu, 15 November 2025 | Jakarta Convention Center</strong></p>
+    <a href="#daftar" class="btn">Daftar Sekarang</a>
+  </section>
+</body>
 </html>
